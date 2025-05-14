@@ -3,71 +3,128 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Juhi | Data Science Portfolio</title>
+  <title>Juhi Shahi | Data Scientist Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans">
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
 
-  <!-- Hero Section -->
-  <section class="bg-white py-10">
-    <div class="container mx-auto text-center">
-      <h1 class="text-4xl font-bold mb-2">Hi, I'm Juhi 👋</h1>
-      <p class="text-lg text-gray-600">Aspiring Data Scientist | ML Enthusiast | Data Analyst</p>
-      <a href="#projects" class="mt-4 inline-block bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">View Projects</a>
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Juhi Shahi</h1>
+      <nav class="space-x-4 text-sm">
+        <a href="#projects" class="hover:text-blue-600">Projects</a>
+        <a href="#experience" class="hover:text-blue-600">Experience</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <!-- About Section -->
-  <section class="py-10">
-    <div class="container mx-auto px-4 max-w-4xl">
-      <h2 class="text-2xl font-bold mb-4">🎓 About Me</h2>
-      <p class="text-gray-700">Currently pursuing a Master's in Data Science & Statistics. Passionate about using machine learning, statistics, and storytelling to extract insights and drive impact.</p>
+  <!-- Hero -->
+  <section class="py-16 bg-gradient-to-br from-blue-100 to-blue-50 text-center">
+    <h2 class="text-4xl font-bold mb-4">Hello, I'm Juhi 👋</h2>
+    <p class="text-lg text-gray-700 max-w-xl mx-auto">
+      Data Analyst | ML Enthusiast | Automating insights with Python, SQL & Power BI.
+    </p>
+    <div class="mt-6 flex justify-center space-x-4">
+      <a href="https://linkedin.com/in/juhi-shahi-830719220" target="_blank" class="text-blue-600 text-xl"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/juhi-shahi" target="_blank" class="text-gray-700 text-xl"><i class="fab fa-github"></i></a>
+      <a href="mailto:juhishahi321@gmail.com" class="text-red-600 text-xl"><i class="fas fa-envelope"></i></a>
     </div>
   </section>
 
   <!-- Skills -->
-  <section class="bg-white py-10">
-    <div class="container mx-auto px-4 max-w-4xl">
-      <h2 class="text-2xl font-bold mb-6">🛠 Skills & Tools</h2>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
-        <div class="bg-blue-100 p-4 rounded">Python</div>
-        <div class="bg-blue-100 p-4 rounded">SQL</div>
-        <div class="bg-blue-100 p-4 rounded">Power BI</div>
-        <div class="bg-blue-100 p-4 rounded">Scikit-learn</div>
-        <div class="bg-blue-100 p-4 rounded">Tableau</div>
-        <div class="bg-blue-100 p-4 rounded">TensorFlow</div>
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-6 max-w-5xl">
+      <h3 class="text-2xl font-semibold mb-6">🛠 Technical Skills</h3>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="bg-blue-100 p-4 rounded text-center">Python</div>
+        <div class="bg-blue-100 p-4 rounded text-center">SQL</div>
+        <div class="bg-blue-100 p-4 rounded text-center">Power BI</div>
+        <div class="bg-blue-100 p-4 rounded text-center">Scikit-learn</div>
+        <div class="bg-blue-100 p-4 rounded text-center">Streamlit</div>
+        <div class="bg-blue-100 p-4 rounded text-center">Selenium</div>
       </div>
     </div>
   </section>
 
   <!-- Projects -->
-  <section class="py-10" id="projects">
-    <div class="container mx-auto px-4 max-w-5xl">
-      <h2 class="text-2xl font-bold mb-6">📊 Featured Projects</h2>
+  <section id="projects" class="py-12 bg-gray-50">
+    <div class="container mx-auto px-6 max-w-5xl">
+      <h3 class="text-2xl font-semibold mb-6">📂 Projects</h3>
 
-      <!-- Project Card -->
-      <div class="bg-white shadow rounded p-4 mb-4">
-        <h3 class="text-xl font-semibold">Car Price Prediction Model</h3>
-        <p class="text-gray-600">Built a regression model using Python and deployed using Streamlit. Used features like mileage, engine, max power, and fuel type.</p>
-        <a href="https://your-car-price-predictor-link" class="text-blue-600 hover:underline">Live Demo</a>
+      <!-- Project 1 -->
+      <div class="mb-6 p-4 bg-white rounded shadow">
+        <h4 class="text-xl font-bold">Netflix Data Analysis</h4>
+        <p>Visualized viewing patterns using Python, clustering viewer profiles from Netflix dataset.</p>
+        <a href="https://github.com/juhi-shahi/Binge-Watch-Breakdown-Analyzing-Netflix-Content-Trends" class="text-blue-600 hover:underline">GitHub Repo</a>
       </div>
 
-      <!-- Add more project cards as needed -->
+      <!-- Project 2 -->
+      <div class="mb-6 p-4 bg-white rounded shadow">
+        <h4 class="text-xl font-bold">Car Price Prediction</h4>
+        <p>Built regression model with Scikit-learn and deployed via Streamlit for used car pricing.</p>
+        <a href="https://github.com/juhi-shahi/car-price-prediction" class="text-blue-600 hover:underline">GitHub Repo</a>
+      </div>
 
+      <!-- Project 3 -->
+      <div class="mb-6 p-4 bg-white rounded shadow">
+        <h4 class="text-xl font-bold">Customer Churn Prediction</h4>
+        <p>Identified at-risk telecom users using ML pipelines and GridSearchCV tuning.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-12 bg-white">
+    <div class="container mx-auto px-6 max-w-5xl">
+      <h3 class="text-2xl font-semibold mb-6">💼 Experience</h3>
+      <ul class="space-y-4">
+        <li>
+          <strong>SaiKet Systems</strong> – Data Science Intern (Jan–Feb 2025)<br/>
+          Built ML models for customer churn; deployed analytics pipelines using Python.
+        </li>
+        <li>
+          <strong>Insignia Consultancy</strong> – Web Automation Intern (May–Nov 2024)<br/>
+          Automated dynamic scraping using Selenium + BeautifulSoup.
+        </li>
+        <li>
+          <strong>SMNG Academy</strong> – Power BI Intern (Feb–Mar 2024)<br/>
+          Created business dashboards for Sales and Global Terrorism datasets.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="py-12 bg-gray-50">
+    <div class="container mx-auto px-6 max-w-5xl">
+      <h3 class="text-2xl font-semibold mb-6">🎓 Education</h3>
+      <ul class="space-y-3">
+        <li><strong>M.Sc., Data Science & Statistics</strong> – Graphic Era Hill University (2023–2025) – 91.9%</li>
+        <li><strong>B.Sc., PCM</strong> – HNB Garhwal University (2018–2021) – 78.33%</li>
+      </ul>
     </div>
   </section>
 
   <!-- Contact -->
-  <section class="bg-blue-600 text-white py-10">
-    <div class="container mx-auto text-center">
-      <h2 class="text-2xl font-bold mb-2">📬 Let's Connect</h2>
-      <p>Email: your.email@example.com | LinkedIn: /juhi-shahi | GitHub: /juhi-data</p>
+  <section id="contact" class="py-12 bg-blue-600 text-white text-center">
+    <h3 class="text-2xl font-bold mb-2">📬 Get in Touch</h3>
+    <p>juhishahi321@gmail.com | Dehradun, India | +91-9027999350</p>
+    <div class="mt-4 space-x-4 text-xl">
+      <a href="https://linkedin.com/in/juhi-shahi-830719220" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/juhi-shahi" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:juhishahi321@gmail.com"><i class="fas fa-envelope"></i></a>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="text-center py-4 text-gray-500 text-sm">
-    &copy; 2025 Juhi Shahi. All rights reserved.
+    © 2025 Juhi Shahi. All rights reserved.
   </footer>
+
 </body>
 </html>
+
+
